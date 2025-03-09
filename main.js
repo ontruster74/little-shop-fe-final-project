@@ -236,20 +236,29 @@ function getMerchantCoupons(event) {
   let merchantId = event.target.closest("article").id.split('-')[1]
   console.log("Merchant ID:", merchantId)
 
-  fetchData(`merchants/${merchantId}`)
+  fetchData(`merchants/${merchantId}/coupons`)
   .then(couponData => {
     console.log("Coupon data from fetch:", couponData)
-    displayMerchantCoupons(couponData);
+    displayMerchantCoupons(couponData.data, merchantId);
   })
 }
 
-function displayMerchantCoupons(coupons) {
+function displayMerchantCoupons(coupons, merchantID) {
   show([couponsView])
-  hide([merchantsView, itemsView])
+  hide([merchantsView, itemsView, addNewButton])
+  showingText.innerText = `All Coupons for Merchant ${merchantID}`
 
-  couponsView.innerHTML = `
-    <p>Coupon data will go here.</p>
-  `
+  couponsView.innerHTML = ""
+  coupons.forEach((coupon) => {
+    couponsView.innerHTML += `<article class="coupon" id="coupon-${coupon.id}">
+         <h2>${coupon.attributes.name}</h2>
+         <p>Code: ${coupon.attributes.code}</p>
+         <p>Discount Type: ${coupon.attributes.discount_type}</p>
+         <p>Value: ${coupon.attributes.value}</p>
+         <p>Activated?: ${coupon.attributes.activated}</p>
+       </article>`
+  })
+  
 }
 
 //Helper Functions
