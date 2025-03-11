@@ -34,10 +34,11 @@ My learning goal for this project was to develop a solo working process for addi
 
 ### Wins + Challenges:
 (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+
 Wins:
-1.
-2.
+1. I managed to complete all project requirements a day earlier than I expected.
+2. I managed to get 100% line coverage with both my model and request testing suites.
 
 Challenges:
-1.
-2.
+1. I found it difficult to work on my own at first after having been in group environments for my last few projects. It became easier as I completed each phase of the project and saw how much I had accomplished at each phase.
+2. I had some difficulty interpreting some of the assignment prompts, and kept second-guessing myself about code I had already written. I was thankfully able to clarify most of the development points I was unclear about with my instructors during office hours.
