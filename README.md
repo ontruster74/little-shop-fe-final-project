@@ -33,7 +33,6 @@ I had a week to work on this project. I added functionality allowing this websit
 My learning goal for this project was to develop a solo working process for adding to an existing web application. I worked mostly with Ruby on Rails and Chrome dev tools.
 
 ### Wins + Challenges:
-(What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
 
 Wins:
 1. I managed to complete all project requirements a day earlier than I expected.
