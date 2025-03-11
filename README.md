@@ -20,14 +20,17 @@ This project takes an existing website that manages online merchant data and add
 5. run $ npm run dev
 
 ### Preview of App:
-(Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off. gifs preferred!)
+
+![FinalProjectScreenshot](https://github.com/user-attachments/assets/b7fdf951-3564-448a-9f7a-0626763a1e5f)
+
 
 ### Context:
-(Give some context for the project here. How long did you have to work on it? What specific work/improvements did you contribute to this FE application?)
-I had a week to work on this project. 
+
+I had a week to work on this project. I added functionality allowing this website to iteratively create and display Coupon objects for each merchant listed on the website based on fetched data.
 
 ### Learning Goals:
-(What were the learning goals of this project? What tech did you work with?)
+
+My learning goal for this project was to develop a solo working process for adding to an existing web application. I worked mostly with Ruby on Rails and Chrome dev tools.
 
 ### Wins + Challenges:
 (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
